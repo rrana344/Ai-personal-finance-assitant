@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f6f8fb;
+  color: #101828;
+}
+
+.dark body {
+  background: #09111f;
+  color: #eef4ff;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+}
+
+.dark .glass {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(16, 24, 40, 0.72);
+}
+
+.fin-grid {
+  background-image:
+    linear-gradient(rgba(16, 24, 40, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 24, 40, 0.06) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.dark .fin-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.float-card {
+  animation: float 6s ease-in-out infinite;
+}

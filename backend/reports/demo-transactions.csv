@@ -1,0 +1,21 @@
+date,category,type,amount,payment_method,status,notes
+2026-05-06,Travel,expense,2200.0,UPI,Cleared,Cab and metro rides
+2026-05-05,Bills,expense,1800.0,Auto Pay,Cleared,Internet and electricity
+2026-05-04,Shopping,expense,3000.0,Card,Cleared,Clothes and essentials
+2026-05-03,Rent,expense,12000.0,Bank Transfer,Cleared,Apartment rent
+2026-05-02,Food,expense,4500.0,UPI,Cleared,Groceries and dining
+2026-05-01,Salary,income,50000.0,Bank Transfer,Cleared,Monthly salary
+2026-04-20,Freelance,income,6500.0,Bank Transfer,Cleared,Side project payout
+2026-04-15,Health,expense,3800.0,Card,Cleared,Clinic and medicines
+2026-04-10,Education,expense,4200.0,Card,Cleared,Course subscription
+2026-04-08,Entertainment,expense,2500.0,UPI,Cleared,Movies and streaming
+2026-03-17,Subscriptions,expense,1700.0,Auto Pay,Cleared,Streaming and apps
+2026-03-14,Shopping,expense,5200.0,Card,Cleared,March shopping
+2026-03-08,Food,expense,6100.0,UPI,Cleared,March groceries and dining
+2026-03-03,Rent,expense,12000.0,Bank Transfer,Cleared,March apartment rent
+2026-03-01,Salary,income,50000.0,Bank Transfer,Cleared,March salary
+2026-02-21,Travel,expense,14500.0,Card,Cleared,Weekend trip anomaly
+2026-02-08,Food,expense,3900.0,UPI,Cleared,February groceries and dining
+2026-02-03,Rent,expense,12000.0,Bank Transfer,Cleared,February apartment rent
+2026-02-01,Salary,income,50000.0,Bank Transfer,Cleared,February salary
+2026-01-01,Salary,income,49000.0,Bank Transfer,Cleared,January salary
